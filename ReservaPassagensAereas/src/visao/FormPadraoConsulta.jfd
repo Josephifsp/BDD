@@ -1,0 +1,44 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.4.1" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JInternalFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp jpnFormulario::l:::x}"
+			"$verticalGroup": "par l {comp jpnFormulario::l:::x}"
+		} ) {
+			name: "this"
+			"visible": true
+			"closable": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {par l {seq {space :p:211:p, comp label2:::p:123:p}, seq l {space :p:79:p, comp label1:::p::p}}, space ::339:x}}"
+				"$verticalGroup": "par l {seq t {space :p:18:p, comp label1:::p::p, space :p:38:p, comp label2:::p:101:p, space ::256:x}}"
+			} ) {
+				name: "jpnFormulario"
+				auxiliary() {
+					"JavaCodeGenerator.variableModifiers": 4
+				}
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "text"
+					"font": new java.awt.Font( "Segoe UI", 0, 22 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 4
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "text"
+					"font": new java.awt.Font( "Segoe UI", 0, 48 )
+					"visible": false
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 4
+					}
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 550, 360 )
+		} )
+	}
+}

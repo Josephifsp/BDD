@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dependencies1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ReservaPassagensAereas/out/production/ReservaPassagensAereas/dependencies/flatlaf-intellij-themes-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ReservaPassagensAereas/out/production/ReservaPassagensAereas/dependencies/mysql-connector-j-8.0.33.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ReservaPassagensAereas/out/production/ReservaPassagensAereas/dependencies/sqlite-jdbc-3.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ReservaPassagensAereas/out/production/ReservaPassagensAereas/dependencies/flatlaf-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ReservaPassagensAereas/out/production/ReservaPassagensAereas/dependencies/forms_rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

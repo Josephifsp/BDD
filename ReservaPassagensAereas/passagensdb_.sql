@@ -1,4 +1,16 @@
 ﻿#
+# Criação da base de dados "passagensdb"
+#
+
+CREATE DATABASE passagensdb
+
+#
+# Uso da base de dados "passagensdb"
+#
+
+USE passagensdb
+
+#
 # Estrutura para tabela "avioes"
 #
 
